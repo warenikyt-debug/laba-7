@@ -139,20 +139,4 @@ public class PROGRAM
         }
         return result.ToString();
     }
-
-    // Метод Main для демонстрации работы
-    public static void Main()
-    {
-        Console.WriteLine("=== ДЕМОНСТРАЦИЯ РАБОТЫ ФУНКЦИЙ ===");
-        Console.WriteLine($"Факториал 5: {FACTORIAL(5)}");
-        Console.WriteLine($"Число Фибоначчи на позиции 6: {Fibonacci(6)}");
-        Console.WriteLine($"Является ли 17 простым: {SIMPLE(17)}");
-        Console.WriteLine($"Римское представление 1987: {ROMAN(1987)}");
-        Console.WriteLine($"Реверс числа 12345: {REVERSE(12345)}");
-        Console.WriteLine($"Палиндром 'А роза упала на лапу Азора': {PALINDROME("А роза упала на лапу Азора")}");
-        
-        int[] array = {5, 2, 8, 1, 9};
-        BUBLE(array);
-        Console.WriteLine($"Сортировка массива [5,2,8,1,9]: [{string.Join(", ", array)}]");
-    }
 }
